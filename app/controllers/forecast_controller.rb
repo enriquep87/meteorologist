@@ -16,7 +16,7 @@ class ForecastController < ApplicationController
     # The longitude the user input is in the string @lng.
     # ==========================================================================
 
-url_weather= "https://api.darksky.net/forecast/929b779df841220ca0160cb3dfa6a7d5/"+@lat+","+@lng
+url_weather= "https://api.forecast.io/forecast/929b779df841220ca0160cb3dfa6a7d5/"+@lat+","+@lng
 
 require "open-uri"
 
